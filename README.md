@@ -35,7 +35,7 @@ Here's what your app is expected to do:
 1. Gradually cycle the background color between `blue`, `cyan`, and `black` over 20 seconds to simulate the day/night cycle. Colors may be used more than once in the cycle. This should start automatically and repeat indefinitely.
 2. Animate the sun and the moon images to cycle in accordance with the change from day to night and back again. This should also start automatically and repeat indefinitely. Be sure the animation uses `.calculationModeCubic` to ensure smoothness.
 3. Include a 50 x 50 `stormButton` that, when tapped, causes the cloud image to fade in, float up and down for eight seconds, and fade back out. The button should be white with a gray border.
-4. Three seconds after the cloud animation begins, a one-second animation of the lightning flash should occur. It can't be seen in the following gif, but the bolt should flash three times in the span of a single second before it disappears for good.
+4. Three seconds after the cloud animation begins, a one-second animation of the lightning flash should occur. It's hard to see in the following gif, but the bolt should flash three times in the span of a single second, then `.autoreverse` before it disappears for good.
 
 This is how your app should look:
 
